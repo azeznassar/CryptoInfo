@@ -1,0 +1,27 @@
+@import '../config';
+
+.notFound {
+    width: 100%;
+    text-align: center;
+    margin-top: 60px;
+
+    .notFoundTitle {
+        font-weight: 400;
+        color: $textSecondary;
+    }
+
+    .notFoundLink {
+        display: inline-block;
+        margin-top: 40px;
+        color: $text;
+        text-decoration: none;
+        border: 1px solid $textSecondary;
+        border-radius: 4px;
+        padding: 18px;
+        transition: border .2s;
+        &:hover {
+            border: 1px solid $text;
+        }
+    }
+}
+

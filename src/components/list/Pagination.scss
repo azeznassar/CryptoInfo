@@ -1,0 +1,40 @@
+//TODO: Scss
+@import '../config';
+
+.pagination {
+    margin: 30px auto;
+    text-align: center;
+
+    &Button {
+        text-align: center;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 1.3rem;
+        margin: 10px;
+        width: 45px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: $blue;
+        transition: background-color .3s;
+        color: white;
+
+        &:hover {
+            background-color: $blueDark;
+        }
+
+        &:disabled {
+            background-color: $indigoLight;
+            cursor: not-allowed;
+        }
+    }
+
+    &Info {
+        font-size: 12px;
+
+        .numbers {
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}

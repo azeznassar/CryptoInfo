@@ -1,0 +1,53 @@
+//TODO: Sort colors with config.scss
+@import '../config';
+
+.tableContainer {
+  overflow: auto;
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    &Head {
+      background-color: $indigoDark;
+      tr th {
+        padding: 10px 20px;
+        color: $textSecondary;
+        text-align: left;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+
+    &Body {
+      text-align: left;
+      background-color: $indigo;
+      tr td {
+        padding: 24px 20px;
+        border-bottom: 2px solid $indigoDark;
+        color: $text;
+        cursor: pointer;
+
+        @media (max-width: 700px) {
+          padding: 24px 7px;
+        }
+      }
+
+      .tableRank {
+        color: $textSecondary;
+        margin-right: 18px;
+        font-size: 12px;
+      }
+
+      .tableDollar {
+        color: $textSecondary;
+        margin-right: 6px;
+      }
+    }
+
+    @media (max-width: 700px) {
+      font-size: 13px;
+    }
+
+  }
+}
