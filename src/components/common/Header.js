@@ -7,7 +7,7 @@ import './Header.scss';
 const Header = () => {
     return (
         <div className="headerContainer">
-            <Link to="/">
+            <Link to="/CryptoInfo/">
             <img src={logo} alt="Logo" className="headerLogo" />
             </Link>
 

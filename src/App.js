@@ -14,8 +14,8 @@ class App extends React.Component {
                     <Header />
 
                     <Switch>
-                        <Route path="/" component={List} exact />
-                        <Route path="/currency/:id" component={Details} />
+                        <Route path="/CryptoInfo" component={List} exact />
+                        <Route path="/CryptoInfo/currency/:id" component={Details} />
                         <Route component={NotFound} />
                     </Switch>
                 </div>
