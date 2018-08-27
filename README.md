@@ -1,29 +1,7 @@
-# React-Parcel boilerplate
+## CryptoInfo
 
-React boilerplate/starter pack using Parceljs
- 
-### Version
+Cryptocurrency tracker that displays the price, rank, market cap, total supply and much more. Includes thousands of different Cryptocurrencies. 
 
-1.0.0
+### URL 
 
-## Usage
-
-Boilerplate for React using Parceljs
-
-### Installation
-Install the dependencies:
-  * react 
-  * react-dom 
-  * parcel-bundler
-
-```sh
-$ npm install
-```
-
-### Run
-
-This will watch your files, buddle them and run your local dev server at http://localhost:1234/
-
-```sh
-$ npm start
-```
+https://azeznassar.github.io/CryptoInfo/
