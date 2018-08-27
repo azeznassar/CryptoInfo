@@ -18,7 +18,7 @@ const Table = (props) => {
             </thead>
             <tbody className="tableBody">
                 {props.currencies.map((currency) => (
-                <tr key={currency.id} onClick={() => props.history.push(`/CryptoInfo/currency/${currency.id}`)}>
+                <tr key={currency.id} onClick={() => props.history.push(`/currency/${currency.id}`)}>
                     <td>
                         <span className="tableRank">{currency.rank}</span>
                         {currency.name}

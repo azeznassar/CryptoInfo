@@ -46,7 +46,7 @@ class Search extends React.Component {
             result: []
         });
 
-        this.props.history.push(`/CryptoInfo/currency/${currency}`);
+        this.props.history.push(`/currency/${currency}`);
     }
 
     renderResults() {
