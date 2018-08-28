@@ -1,4 +1,3 @@
-//TODO: Scss
 @import '../config';
 
 .pagination {
@@ -24,7 +23,7 @@
         }
 
         &:disabled {
-            background-color: $indigoLight;
+            background-color: $primaryLight;
             cursor: not-allowed;
         }
     }

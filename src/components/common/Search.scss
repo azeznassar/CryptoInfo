@@ -8,7 +8,8 @@
     padding: 0 20px;
 
     @media (max-width: 700px) {
-      width: 100%;
+      width: 55%;
+      padding-right: 0;
     }
 
     &::placeholder {
@@ -32,7 +33,7 @@
     &Input {
       box-sizing: border-box;
       outline: none;
-      background-color: $indigoLight;
+      background-color: $primaryLight;
       border-radius: 4px;
       border: 0;
       padding-left: 35px;
@@ -58,8 +59,8 @@
       width: 100%;
       max-height: 299px;
       overflow-y: auto;
-      background-color: $indigo;
-      border: 1px solid $indigoDark;
+      background-color: $primary;
+      border: 1px solid $primaryDark;
       border-radius: 4px;
       box-shadow: $boxShadow;
       margin-top: 10px;
@@ -67,13 +68,13 @@
       .searchResult, .searchNoResult {
         color: $textSecondary;
         padding: 15px 0 15px 35px;
-        border-bottom: 2px solid $indigo;
+        border-bottom: 2px solid $primary;
 
       }
 
       .searchResult {
         cursor: pointer;
-        border-bottom: 2px solid $indigoDark;
+        border-bottom: 2px solid $primaryDark;
         
         &:hover {
             color: $text;
